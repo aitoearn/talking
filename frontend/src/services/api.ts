@@ -32,7 +32,7 @@ export interface ApiResponse<T = any> {
 
 // 创建axios实例
 const api: AxiosInstance = axios.create({
-  baseURL: 'http://localhost:8000',
+  baseURL: 'https://u832381-a2e0-6601b403.westc.gpuhub.com:8443/',
   timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
